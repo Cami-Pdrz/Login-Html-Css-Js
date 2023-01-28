@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Bienvenido a mi formulario</title>
+</head>
+<body>
+    <div class="container-form sign-up">
+        <div class="welcome-back">
+            <div class="message">
+                <h2>Bienvenido a Cami-Pdrz</h2>
+                <p>Si ya posees una cuenta por favor inicia sesión aquí</p>
+                <button class="sign-up-btn">Inicia Sesión</button>
+            </div>
+        </div>
+        <form class="formulario">
+            <h2 class="create-account">Crea una cuenta</h2>
+            <div class="icon">
+                <div class="border-icon">
+                    <i class='bx bxl-facebook-circle bx-tada bx-rotate-90 bx-lg' ></i>
+                </div>
+                <div class="border-icon">
+                    <i class='bx bxl-linkedin-square bx-flashing bx-lg' ></i>    
+                </div>
+                <div class="border-icon">
+                    <i class='bx bxl-instagram-alt bx-burst bx-lg' ></i>
+                </div>
+            </div>
+            <p class="cuenta-gratis">crea una cuenta gratis</p>
+            <input type="text" placeholder="Nombre">
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Contraseña">
+            <input type="button" value="Registrarse">
+        </form>
+        
+    </div>
+    <!--Se clona el contenedor superior "el div"y se realiza las modificaciones para la segunda interface-->
+    <div class="container-form sign-in">
+        <form class="formulario">
+            <h2 class="create-account">Inicia sesión</h2>
+            <div class="icon">
+                <div class="border-icon">
+                    <i class='bx bxl-facebook-circle bx-tada bx-rotate-90 bx-lg' ></i>
+                </div>
+                <div class="border-icon">
+                    <i class='bx bxl-linkedin-square bx-flashing bx-lg' ></i>    
+                </div>
+                <div class="border-icon">
+                    <i class='bx bxl-instagram-alt bx-burst bx-lg' ></i>
+                </div>
+            </div>
+            <p class="cuenta-gratis">¿Aun no tienes una cuenta?</p>
+            
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Contraseña">
+            <input type="button" value="Iniciar Sesión">
+        </form>
+        <div class="welcome-back">
+            <div class="message">
+                <h2>Bienvenido de nuevo</h2>
+                <p>Si aun no posees una cuenta por favor registrase aquí</p>
+                <button class="sign-in-btn">Registrarse</button>
+            </div>
+        </div>
+       
+        
+    </div>
+    <script src="script.js"></script>    
+</body>
+</html>
